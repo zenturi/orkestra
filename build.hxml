@@ -1,0 +1,11 @@
+-cp src/
+-cp test/
+-main test.Test
+
+-D debug
+-dce std
+-lib hxbit
+-lib tjson
+
+# --interp
+-cpp bin/cpp

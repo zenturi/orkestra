@@ -1,0 +1,15 @@
+{
+  "name": "Orkestra",
+  "url" : "https://github.com/YOUR_NAME/Orkestra/",
+  "license": "MIT",
+  "tags": ["haxe","js"],
+  "description": "description of Orkestra",
+  "classPath": "src",
+  "version": "0.0.1",
+  "releasenote": "Initial release",
+  "contributors": ["YOUR_NAME"],
+  "dependencies": {
+    "hxbit" : ""
+
+  }
+}

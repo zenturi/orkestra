@@ -1,0 +1,68 @@
+{
+     "name" : "test project"
+    ,"graph" : [
+
+    ]
+    ,"paths" : [
+         "test"
+    ]
+    ,"components" : [
+         {
+             "module" : "test.Add"
+            ,"inports" : [
+                 {
+                     "name" : "x"
+                    ,"type" : "Int"
+                }
+                ,{
+                     "name" : "y"
+                    ,"type" : "Int"
+                }
+            ]
+            ,"outports" : [
+                 {
+                     "name" : "result"
+                    ,"type" : "Int"
+                }
+            ]
+        }
+        ,{
+             "module" : "test.Sub"
+            ,"inports" : [
+                 {
+                     "name" : "x"
+                    ,"type" : "Int"
+                }
+                ,{
+                     "name" : "y"
+                    ,"type" : "Int"
+                }
+            ]
+            ,"outports" : [
+                 {
+                     "name" : "result"
+                    ,"type" : "Int"
+                }
+            ]
+        }
+        ,{
+             "module" : "test.Tick"
+            ,"inports" : [
+                 {
+                     "name" : "start"
+                    ,"type" : "Bool"
+                }
+                ,{
+                     "name" : "stop"
+                    ,"type" : "Bool"
+                }
+            ]
+            ,"outports" : [
+                 {
+                     "name" : "deltaTime"
+                    ,"type" : "Float"
+                }
+            ]
+        }
+    ]
+}
